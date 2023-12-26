@@ -1,0 +1,127 @@
+/************************************************************************************
+ESTRUCTURA
+*************************************************************************************/
+#container {
+    background-color: rgb(115, 255, 126);
+    border: 2px solid green;
+    padding: 5px;
+    width: 960px;
+    margin: 10px auto;
+    height: auto;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+#section {
+    /*section    article*/
+    background-color: #ffffff;
+    width: 900px;
+    float: left;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+#sidebar {
+    /*aside*/
+    background-color: #ffffff;
+    width: 290px;
+    float: right;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+#footer {
+    /*footer*/
+    background-color: #ffffff;
+    clear: both;
+    padding: 15px;
+}
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+		/* para 980px o menos */
+		@media screen and (max-width: 980px) {
+			#container {
+				width: 96%;
+			}
+
+			#section {
+				width: 90%;
+			}
+
+			#sidebar {
+				width: 30%;
+			}
+		}
+
+		/* para 700px o menos */
+		@media screen and (max-width: 700px) {
+			#header {
+				height: auto;
+			}
+
+			#section {
+				width: auto;
+				float: none;
+			}
+
+			#sidebar {
+				width: auto;
+				float: none;
+			}
+		}
+
+		/* para 480px o menos */
+		@media screen and (max-width: 480px) {
+
+			h1 {
+				font-size: 24px;
+			}
+
+			#sidebar {
+				display: none;
+			}
+
+        }
+        
+/************************************************************************************
+TITLES
+*************************************************************************************/
+h2 {
+    color: white;
+    background-color: green;
+    padding: 7px;
+}
+
+h3 {
+    color: #000000;
+    background-color: rgb(255, 174, 0);
+    padding: 7px;
+}
+
+pre {
+    background-color: rgb(236, 255, 227);
+    color: rgb(2, 73, 0);
+    padding: 10px;
+}
+
+#cartel {
+    border: none;
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
